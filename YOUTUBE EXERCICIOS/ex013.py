@@ -1,0 +1,2 @@
+n1 = int(input('Qual o salario do funcionario?'))
+print('O salario do funcionario com o aumento de 15% ficara {} reais,o salario antigo do funcionario era {} reais,logo obteve um aumento de {} reais no salario'.format(n1*1.15 ,n1 , n1*1.15-n1 ))

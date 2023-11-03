@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ')
+fraseA = frase.count('a')
+print(f'A letra A foi digitada {fraseA} vezes na frase ')
+primeiroA = frase.find('a')
+print(f'A posiçao em que a letra A aparece pela primeira vez é {primeiroA} ')
+ultimoA = frase.rfind('a')
+print(f'A posiçao em que a letra aparece pela ultima vez é {ultimoA}')

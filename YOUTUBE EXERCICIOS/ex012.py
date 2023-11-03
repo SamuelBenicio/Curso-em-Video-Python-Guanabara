@@ -1,0 +1,2 @@
+n1 = int(input('Qual o preço do produto?'))
+print('Com a promoção da loja voce recebera 5% de desconto e assim o valor do produto ficara {} reais, em vez de {} reais e voce obteve uma economia de {} reais '.format(n1*0.95 ,n1 , n1-(n1*0.95)))
